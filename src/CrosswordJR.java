@@ -12,9 +12,9 @@ public class CrosswordJR {
                     {'p', 'o', 'e', 'e', 'j', 'j'}
             };
             detectAllWords(crossword, "home","same");
-//            List<Word> wordsList =detectAllWords(crossword, "home","same");
-//            for(Word w : wordsList)
-//                System.out.println(w.toString());
+            List<Word> wordsList =detectAllWords(crossword, "home","same");
+            for(Word w : wordsList)
+                System.out.println(w.toString());
         /*
 Ожидаемый результат, "same","orgn", "gsf", "meo", "eo"
 home - (5, 3) - (2, 0)
