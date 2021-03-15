@@ -16,7 +16,7 @@ public class CrosswordJR {
             for(Word w : wordsList)
                 System.out.println(w.toString());
         /*
-Ожидаемый результат, "same","orgn", "gsf", "meo", "eo"
+Ожидаемый результат
 home - (5, 3) - (2, 0)
 same - (1, 1) - (4, 1)
          */
